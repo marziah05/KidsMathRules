@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- color for Activity_main-->
+
+    <color name="headingText">#ffff</color>
+    <color name="blue">#0400f1</color>
+    <color name="subtractionButton">#00f8ff</color>
+    <color name="additionButton">#ff00e3</color>
+
+    <!--color for Activity_ways -->
+
+    <color name="backButton">#ff0900</color>
+    <color name="text">#000</color>
+    <color name="bodyBg">#e456f2</color>
+    <color name="green">#02e100</color>
+    <color name="numText">#cf00b3</color>
+
+
+
+    <!-- color for activity_fingure-->
+</resources>

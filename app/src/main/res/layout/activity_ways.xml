@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/contentPedding"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="15"
+        >
+        <TextView
+            android:typeface="monospace"
+            android:textColor="@color/text"
+            android:background="@drawable/bg1"
+            android:layout_weight="3"
+            android:textSize="@dimen/waysHeading"
+            android:text="@string/waysHeading"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" />
+        <ScrollView
+            android:layout_weight="12"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:weightSum="16"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="500dp">
+                    <CheckBox
+                        android:id="@+id/finger"
+                        android:typeface="monospace"
+                        android:background="@android:color/holo_green_light"
+                        android:layout_margin="@dimen/margin"
+                        android:textSize="@dimen/waysText"
+                        android:text="@string/way1"
+                        android:layout_weight="3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp" />
+                    <CheckBox
+                        android:id="@+id/drawing"
+                        android:typeface="monospace"
+                        android:background="@color/additionButton"
+                        android:layout_margin="@dimen/margin"
+                        android:textSize="@dimen/waysText"
+                        android:text="@string/way2"
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp" />
+                    <CheckBox
+                        android:id="@+id/apple"
+                        android:typeface="monospace"
+                        android:background="@android:color/holo_green_light"
+                        android:layout_margin="@dimen/margin"
+                        android:textSize="@dimen/waysText"
+                        android:text="@string/way3"
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp" />
+                    <CheckBox
+                        android:id="@+id/game"
+                        android:typeface="monospace"
+                        android:background="@color/additionButton"
+                        android:layout_margin="@dimen/margin"
+                        android:textSize="@dimen/waysText"
+                        android:text="@string/way4"
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp" />
+                    <CheckBox
+                        android:id="@+id/story"
+                        android:typeface="monospace"
+                        android:background="@android:color/holo_green_light"
+                        android:layout_margin="@dimen/margin"
+                        android:textSize="@dimen/waysText"
+                        android:text="@string/way5"
+                        android:layout_weight="3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <Button
+        android:background="@drawable/pinkback"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/back"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight" />
+    <Button
+        android:alpha="0.65"
+        android:enabled="false"
+        android:background="@drawable/greenback"
+        android:id="@+id/start"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+         />
+</RelativeLayout>

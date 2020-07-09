@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:padding="@dimen/contentPedding">
+    <TextView
+        android:background="@drawable/bg1"
+        android:typeface="monospace"
+        android:textColor="@color/text"
+        android:textSize="@dimen/mainHeading"
+        android:gravity="center"
+        android:text="@string/mainHeading"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <ImageView
+        android:src="@drawable/math1"
+        android:layout_weight="4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <Button
+        android:textAllCaps="false"
+        android:typeface="monospace"
+        android:textColor="@color/headingText"
+        android:background="@drawable/pink"
+        android:id="@+id/startAddition"
+        android:textSize="@dimen/title"
+        android:text="@string/addition"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp" />
+    <Button
+        android:textAllCaps="false"
+        android:typeface="monospace"
+        android:layout_marginTop="@dimen/margin"
+        android:textColor="@color/headingText"
+        android:background="@drawable/green"
+        android:id="@+id/startSubtraction"
+        android:gravity="center"
+        android:textSize="@dimen/title"
+        android:text="@string/subtraction"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp" />
+</LinearLayout>

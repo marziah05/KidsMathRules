@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:paddingLeft="@dimen/paddingLeft"
+        android:paddingRight="@dimen/paddingLeft"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_weight="7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_marginLeft="@dimen/paddingLeft"
+            android:gravity="center"
+            android:weightSum="6"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:typeface="monospace"
+                android:textColor="@color/numText"
+                android:id="@+id/digitOperand1"
+                android:text="3"
+                android:textSize="@dimen/digit"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:typeface="monospace"
+                android:textColor="@color/numText"
+                android:id="@+id/digitOperator"
+                android:text="+"
+                android:textSize="@dimen/digit"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:typeface="monospace"
+                android:textColor="@color/numText"
+                android:id="@+id/digitOperand2"
+                android:text="2"
+                android:textSize="@dimen/digit"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:typeface="monospace"
+                android:textColor="@color/numText"
+                android:id="@+id/digitEqual"
+                android:text="="
+                android:textSize="@dimen/digit"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:typeface="monospace"
+                android:textColor="@color/numText"
+                android:id="@+id/digitResult"
+                android:text=""
+                android:textSize="@dimen/digit"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/rightSign"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/handHeight" />
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="8"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/threeapples"
+                android:id="@+id/imageOperand1"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/handHeight" />
+            <TextView
+                android:typeface="monospace"
+                android:textColor="@color/numText"
+                android:id="@+id/imageOperator"
+                android:textSize="@dimen/digit"
+                android:text="+"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/twoapples"
+                android:id="@+id/imageOperand2"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/handHeight" />
+            <TextView
+                android:typeface="monospace"
+                android:textColor="@color/numText"
+                android:id="@+id/imageEqual"
+                android:textSize="@dimen/digit"
+                android:text="="
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/imageResult"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/handHeight" />
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="@dimen/paddingTop"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="@color/text"
+            android:id="@+id/rules"
+            android:textSize="@dimen/descriptionText"
+            android:text="@string/appleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:id="@+id/back"
+            android:background="@drawable/pinkback"
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="@dimen/buttonHeight" />
+        <Button
+            android:textAllCaps="false"
+            android:typeface="monospace"
+            android:layout_marginLeft="@dimen/paddingTop"
+            android:textColor="@color/headingText"
+            android:background="@drawable/pink"
+            android:id="@+id/answer"
+            android:textSize="@dimen/buttonText"
+            android:text="@string/seeButton"
+            android:layout_width="@dimen/seeButtonWidth"
+            android:layout_height="@dimen/buttonHeight" />
+    </LinearLayout>
+</LinearLayout>
+

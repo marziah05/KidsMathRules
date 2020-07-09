@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Kid\'s Math Rules</string>
+    <string name="title_activity_cover">Kid\'s Math Rules</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Created by Hajera Marzia</string>
+    <string name="title_activity_ways">Kid\'s Math Rules</string>
+    <string name="title_activity_finger">Kid\'s Math Rules</string>
+    <string name="title_activity_draw">Kid\'s Math Rules</string>
+    <string name="title_activity_game">Kid\'s Math Rules</string>
+    <string name="title_activity_story">Kid\'s Math Rules</string>
+    <string name="title_activity_apple">Kid\'s Math Rules</string>
+
+    <!-- Strings for activity_main.xml -->
+
+    <string name="mainHeading">Kid\'s Maths</string>
+    <string name="addition">Do Addition</string>
+    <string name="subtraction">Do Subtraction</string>
+
+    <!-- Strings for activity_ways -->
+
+    <string name="waysHeading">Choose one of 5 Ways</string>
+    <string name="way1">Counting fingures</string>
+    <string name="way2">Drawing Lines</string>
+    <string name="way3">Counting Apples</string>
+    <string name="way4">Playing Games</string>
+    <string name="way5">Listening Story</string>
+    <string name="button1">Back</string>
+    <string name="button2">Start</string>
+
+    <!-- Stings for activity_finger.xml-->
+
+    <string name="fingerHeading">Count with your finger.</string>
+    <string name="fingerText">Open your 3 Fingers for 3. Then Open your 2 fingers for 2.Count your fingers.</string>
+    <string name="seeButton">Match Answer</string>
+    <string name="backButton">Back</string>
+
+    <!-- String for drawActivity  -->
+
+    <string name="drawingText">Draw 3 Lines on a paper for 3. Then Draw 2 Lines for 2.Count the lines.</string>
+
+    <!-- string for appleActivity -->
+
+    <string name="appleText">Take 3 Apples for 3. Then Take 2 apples for 2.Count the apples.</string>
+
+    <!-- string for gameActivity -->
+
+    <string name="gameText">Click 3 Buttons to find 3 Balloons.Then Click 2 Buttons to find 2 Balloons.Count the Balloons.</string>
+
+    <!-- string for storyActivity -->
+
+    <string name="storyText">Once upon a time, there was Sofia.She lived with her father and mother in the country side.Sofia has
+        two elder brothers.she was in class one. One day
+    she was so exited and happy.when she come back to home from school.she saw that her little cute sister was born
+    .She loves her sister ,more than any one, any thing.\n\nNow, Answer, how many members were there in sofia\'s family???\n\n\n\n\n</string>
+
+</resources>
